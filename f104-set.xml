@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList include="f104a-jsbsim-cnf.xml">
+
+  <sim>
+    <description>Lockheed F-104</description>
+    <author>Erik Hofman (FDM), Emmanuel BARANGER (3D)</author>
+  </sim>
+
+</PropertyList>
+

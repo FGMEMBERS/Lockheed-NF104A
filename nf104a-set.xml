@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="nf104a-jsbsim-cnf.xml"> -->
+<PropertyList include="nf104a-yasim-cnf.xml">
+
+  <sim>
+    <description>Lockheed NF 104 A</description>
+    <author>Emmanuel BARANGER (3D/FDM)</author>
+  </sim>
+
+</PropertyList>
+
