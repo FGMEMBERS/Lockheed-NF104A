@@ -51,14 +51,14 @@
      <z>   0.00 </z>
    </location>
    <location name="EYEPOINT" unit="IN">
-     <x> 131.42 </x>
+     <x> 129.82 </x>
      <y>   0.00 </y>
-     <z>  36.00 </z>
+     <z>  29.10 </z>
    </location>
    <location name="VRP" unit="IN">
-     <x>0</x>
-     <y>0</y>
-     <z>6.3</z>
+     <x> 322.02 </x>
+     <y> 0      </y>
+     <z> 6.3    </z>
    </location>
  </metrics>
 
@@ -73,6 +73,15 @@
      <z> -16.43 </z>
    </location>
  </mass_balance>
+
+ <pointmass name="name">
+   <weight unit="LBS"> 230 </weight>
+   <location name="POINTMASS" unit="IN">
+     <x> -129.82 </x>
+     <y>    0.0  </y>
+     <z>    9.4  </z>
+   </location>
+ </pointmass>
 
  <ground_reactions>
 
