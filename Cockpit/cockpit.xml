@@ -23,7 +23,7 @@
 <!--***altimeter***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/alt/alt.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/alt/alt.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>-0.0844</y-m>
@@ -37,7 +37,7 @@
 <!--***attitude indicator***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/ai/ai.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/ai/ai.xml</path>
 	<offsets>
 		<x-m>-0.518498</x-m>
 		<y-m>0.0844</y-m>
@@ -51,7 +51,7 @@
 <!--***attitude indicator, standby***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/ai-stby/ai-stby.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/ai-stby/ai-stby.xml</path>
 	<offsets>
 		<x-m>-0.508130</x-m>
 		<y-m>-0.1528</y-m>
@@ -65,7 +65,7 @@
 <!--***airspeed indicator***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/asi/asi.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/asi/asi.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>-0.0844</y-m>
@@ -79,7 +79,7 @@
 <!--***bearing-distance-heading indicator***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/bdhi/bdhi.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/bdhi/bdhi.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>0.0</y-m>
@@ -93,7 +93,7 @@
 <!--***cabin pressure indicator***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/cab-press/cab-press.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/cab-press/cab-press.xml</path>
 	<offsets>
 		<x-m>-0.5049</x-m>
 		<y-m>0.1570</y-m>
@@ -107,7 +107,7 @@
 <!--***canopy warning indicator***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/can-warn/can-warn.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/can-warn/can-warn.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>0.2072</y-m>
@@ -121,7 +121,7 @@
 <!--***clock***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/clock/clock.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/clock/clock.xml</path>
 	<offsets>
 		<x-m>-0.5065</x-m>
 		<y-m>-0.1115</y-m>
@@ -135,7 +135,7 @@
 <!--***compressor inlet temperature indicator***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/cit/cit.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/cit/cit.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>-0.2053</y-m>
@@ -149,7 +149,7 @@
 <!--***compressor inlet temperature warning (SLOW) light***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/cit-warn/cit-warn.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/cit-warn/cit-warn.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>-0.1454</y-m>
@@ -163,7 +163,7 @@
 <!--***exhaust gas temperature indicator***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/egt/egt.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/egt/egt.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>0.1622</y-m>
@@ -177,7 +177,7 @@
 <!--***faceplate rheostat panel***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/faceplate/faceplate.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/faceplate/faceplate.xml</path>
 	<offsets>
 		<x-m>-0.491695</x-m>
 		<y-m>0.10821</y-m>
@@ -191,7 +191,7 @@
 <!--***fire warning light 1***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/fire-warn/fire-warn1.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/fire-warn/fire-warn1.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>-0.1857</y-m>
@@ -205,7 +205,7 @@
 <!--***fire warning light 2***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/fire-warn/fire-warn2.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/fire-warn/fire-warn2.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>0.2489</y-m>
@@ -219,7 +219,7 @@
 <!--***fuel flow indicator***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/fuel/flow.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/fuel/flow.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>0.2175</y-m>
@@ -233,7 +233,7 @@
 <!--***fuel quantity indicator, external***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/fuel/fuel2.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/fuel/fuel2.xml</path>
 	<offsets>
 		<x-m>-0.4942</x-m>
 		<y-m>0.2169</y-m>
@@ -247,7 +247,7 @@
 <!--***fuel quantity indicator, internal***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/fuel/fuel1.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/fuel/fuel1.xml</path>
 	<offsets>
 		<x-m>-0.5055</x-m>
 		<y-m>0.2104</y-m>
@@ -261,7 +261,7 @@
 <!--***gear, flap, and slat indicators***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/gear-flaps/gear-flaps.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/gear-flaps/gear-flaps.xml</path>
 	<offsets>
 		<x-m>-0.5026</x-m>
 		<y-m>-0.1837</y-m>
@@ -275,7 +275,7 @@
 <!--***gear handle***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/gear-flaps/gear-handle.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/gear-flaps/gear-handle.xml</path>
 	<offsets>
 		<x-m>-0.513257</x-m>
 		<y-m>-0.3925</y-m>
@@ -289,7 +289,7 @@
 <!--***g-meter***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/g-meter/g-meter.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/g-meter/g-meter.xml</path>
 	<offsets>
 		<x-m>-0.4950</x-m>
 		<y-m>-0.1106</y-m>
@@ -303,13 +303,13 @@
 <!--***gunsight***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/gunsight/gunsight.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/gunsight/gunsight.xml</path>
 </model>
 
 <!--***hydraulic pressure 1***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/hyd-press/hyd-press1.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/hyd-press/hyd-press1.xml</path>
 	<offsets>
 		<x-m>-0.508371</x-m>
 		<y-m>0.1177</y-m>
@@ -323,7 +323,7 @@
 <!--***hydraulic pressure 2***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/hyd-press/hyd-press2.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/hyd-press/hyd-press2.xml</path>
 	<offsets>
 		<x-m>-0.502373</x-m>
 		<y-m>0.1177</y-m>
@@ -337,7 +337,7 @@
 <!--***instrument landing system (ILS)***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/ils/ils.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/ils/ils.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>0.0</y-m>
@@ -351,7 +351,7 @@
 <!--***left forward panel***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/left-fwd-panel/left-fwd-panel.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/left-fwd-panel/left-fwd-panel.xml</path>
 	<offsets>
 		<x-m>0</x-m>
 		<y-m>0</y-m>
@@ -365,7 +365,7 @@
 <!--***light panel***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/light-panel/light-panel.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/light-panel/light-panel.xml</path>
 	<offsets>
 		<x-m>0.23995</x-m>
 		<y-m>0.34697</y-m>
@@ -379,7 +379,7 @@
 <!--***mag-compass***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/mag-compass/mag-compass.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/mag-compass/mag-compass.xml</path>
 	<offsets>
 		<x-m>0</x-m>
 		<y-m>0</y-m>
@@ -393,13 +393,13 @@
 <!--***miscellaneous panel fixtures***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/misc-panel/misc-panel.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/misc-panel/misc-panel.xml</path>
 </model>
 
 <!--***nav aid indicators***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/nav-indic/nav-indic.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/nav-indic/nav-indic.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>0.0057</y-m>
@@ -413,7 +413,7 @@
 <!--***nozzle position indicator***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/nozzle/nozzle.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/nozzle/nozzle.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>0.1622</y-m>
@@ -427,7 +427,7 @@
 <!--***oil pressure indicator***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/oil/oil-press.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/oil/oil-press.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>0.2196</y-m>
@@ -441,7 +441,7 @@
 <!--***oil quantity indicator***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/oil/oil-quan.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/oil/oil-quan.xml</path>
 	<offsets>
 		<x-m>-0.4926</x-m>
 		<y-m>0.1631</y-m>
@@ -455,7 +455,7 @@
 <!--***radar***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/radar/radar.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/radar/radar.xml</path>
 	<offsets>
 		<x-m>-0.504584</x-m>
 		<y-m>0</y-m>
@@ -469,7 +469,7 @@
 <!--***right forward panel***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/right-fwd-panel/right-fwd-panel.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/right-fwd-panel/right-fwd-panel.xml</path>
 	<offsets>
 		<x-m>0</x-m>
 		<y-m>0</y-m>
@@ -483,7 +483,7 @@
 <!--***tachometer***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/tach/tach.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/tach/tach.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>0.1622</y-m>
@@ -497,7 +497,7 @@
 <!--***turn-slip indicator***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/turn-slip/turn-slip.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/turn-slip/turn-slip.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>-0.1606</y-m>
@@ -511,7 +511,7 @@
 <!--***UHF frequency repeater***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/uhf/uhf.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/uhf/uhf.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>-0.2256</y-m>
@@ -525,7 +525,7 @@
 <!--***vertical velocity indicator***-->
 
 <model>
-	<path>Aircraft/F-104C/Instruments/vvi/vvi.xml</path>
+	<path>Aircraft/Lockheed-NF104A/Instruments/vvi/vvi.xml</path>
 	<offsets>
 		<x-m>-0.490242</x-m>
 		<y-m>0.0844</y-m>
