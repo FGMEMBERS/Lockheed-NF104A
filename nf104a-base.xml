@@ -42,14 +42,9 @@
 
     <!-- Flap settings -->
     <flaps>
-      <setting>0.00</setting>
-      <setting>0.08</setting>
-      <setting>0.16</setting>
-      <setting>0.32</setting>
-      <setting>0.48</setting>
-      <setting>0.64</setting>
-      <setting>0.82</setting>
-      <setting>1.00</setting>
+        <setting>0</setting>
+        <setting>0.3</setting>
+        <setting>1</setting>
     </flaps>
 
     <weight n="0">
@@ -101,12 +96,4 @@
     <keyboard include="Nasal/nf104a-keyboard.xml"/>
   </input>
  
-  <nasal>
-    <nf104a>
-      <file>Aircraft/Lockheed-NF104A/Nasal/doors.nas</file>
-      <file>Aircraft/Lockheed-NF104A/Nasal/light.nas</file>
-      <file>Aircraft/Lockheed-NF104A/Nasal/liveries.nas</file>
-    </nf104a>
-  </nasal>
-
 </PropertyList>

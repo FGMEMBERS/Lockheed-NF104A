@@ -17,4 +17,12 @@ Lockheed NF 104A simulation config.
 
   </sim>
 
+  <nasal>
+    <nf104a>
+      <file>Aircraft/Lockheed-NF104A/Nasal/doors.nas</file>
+      <file>Aircraft/Lockheed-NF104A/Nasal/light.nas</file>
+      <file>Aircraft/Lockheed-NF104A/Nasal/liveries.nas</file>
+    </nf104a>
+  </nasal>
+
 </PropertyList>

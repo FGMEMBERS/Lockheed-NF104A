@@ -17,8 +17,9 @@
   <bypassratio>     0.0 </bypassratio>
   <tsfc>            0.95 </tsfc>
   <atsfc>           1.90 </atsfc>
-  <idlen1>          0.0 </idlen1>
-  <idlen2>         53.0 </idlen2>
+  <bleed>           0.03 </bleed>
+  <idlen1>         33.5 </idlen1>
+  <idlen2>         67.0 </idlen2>
   <maxn1>         100.0 </maxn1>
   <maxn2>         100.0 </maxn2>
   <augmented>         1 </augmented>

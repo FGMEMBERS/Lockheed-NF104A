@@ -11,7 +11,7 @@ Lockheed NF 104A simulation config.
 
   <sim>
 
-    <description>Lockheed F 104A (JSBSim)</description>
+    <description>Lockheed F 104C (JSBSim)</description>
     <flight-model>jsb</flight-model>
     <aero>f104</aero>
 
