@@ -62,17 +62,19 @@
       <value>0.6</value>
      </red>
      <green>
-      <value>0.6</value>
+      <value>0.5</value>
      </green>
      <blue>
-      <value>0.6</value>
+      <value>0.4</value>
      </blue>
      <alpha>
       <value>0.13</value>
      </alpha>
     </color>
     <size>
-     <value>0.8</value>
+     <property>/engines/engine[0]/n2</property>
+     <factor>0.0074</factor>
+     <offset>0.006</offset>
     </size>
    </start>
    <end>
@@ -81,13 +83,14 @@
       <value>1</value>
      </red>
      <green>
-      <value>1</value>
+      <value>0.9</value>
      </green>
      <blue>
-      <value>1</value>
+      <value>0.8</value>
      </blue>
      <alpha>
-      <value>0.006</value>
+      <property>/engines/engine[0]/n2</property>
+      <factor>0.00006</factor>
      </alpha>
     </color>
     <size>
