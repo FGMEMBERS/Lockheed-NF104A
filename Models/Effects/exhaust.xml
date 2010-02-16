@@ -60,13 +60,13 @@
    <start>
     <color>
      <red>
-      <value>0.6</value>
+      <value>0.8</value>
      </red>
      <green>
-      <value>0.8</value>
+      <value>0.7</value>
      </green>
      <blue>
-      <value>1</value>
+      <value>0.8</value>
      </blue>
      <alpha>
       <value>0.20</value>
@@ -79,13 +79,13 @@
    <end>
     <color>
      <red>
-      <value>0.6</value>
+      <value>0.7</value>
      </red>
      <green>
-      <value>0.8</value>
+      <value>0.6</value>
      </green>
      <blue>
-      <value>1</value>
+      <value>0.7</value>
      </blue>
      <alpha>
       <value>0.008</value>

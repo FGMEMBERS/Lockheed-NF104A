@@ -62,10 +62,10 @@
       <value>0.6</value>
      </red>
      <green>
-      <value>0.5</value>
+      <value>0.54</value>
      </green>
      <blue>
-      <value>0.4</value>
+      <value>0.5</value>
      </blue>
      <alpha>
       <property>engines/engine[0]/n2</property>
@@ -83,10 +83,10 @@
       <value>1</value>
      </red>
      <green>
-      <value>0.9</value>
+      <value>0.95</value>
      </green>
      <blue>
-      <value>0.8</value>
+      <value>0.9</value>
      </blue>
      <alpha>
       <property>engines/engine[0]/n2</property>
