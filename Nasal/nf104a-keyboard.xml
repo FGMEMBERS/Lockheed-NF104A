@@ -2,75 +2,22 @@
 
 <PropertyList>
 
-  <key n="32">
-    <name>space bar</name>
-    <desc>jettison tip tanks</desc>
+  <key n="68">
+    <name>D</name>
+    <desc>Passenger door</desc>
     <binding>
-     <command>property-assign</command>
-     <property>fdm/jsbsim/systems/armament/tip-tanks/release</property>
-     <value>1</value>
-    </binding>
-    <binding>
-     <command>property-assign</command>
-     <property>consumables/fuel[0]/tank[1]/level-gal_us</property>
-     <value>0</value>
-    </binding>
-    <binding>
-     <command>property-assign</command>
-     <property>consumables/fuel[0]/tank[2]/level-gal_us</property>
-     <value>0</value>
-    </binding>
-  </key>
-
-  <key n="99">
-    <name>c</name>
-    <desc>Canopy toggle</desc>
-    <binding>
-     <command>property-toggle</command>
-     <property>fdm/jsbsim/systems/canopy/command</property>
+     <command>nasal</command>
+     <script>nf104a.doorsystem.passengerexport();</script>
     </binding>
   </key>
 
   <key n="100">
     <name>d</name>
-    <desc>Drag chute deploy</desc>
+    <desc>Crew door</desc>
     <binding>
-     <command>property-assign</command>
-     <property>fdm/jsbsim/systems/chute/deploy</property>
-     <value type="int">1</value>
+     <command>nasal</command>
+     <script>nf104a.doorsystem.crewexport();</script>
     </binding>
-  </key>
-
-  <key n="106">
-    <name>j</name>
-    <desc>Drag chute jettison</desc>
-    <binding>
-     <command>property-assign</command>
-     <property>fdm/jsbsim/systems/chute/deploy</property>
-     <value type="int">0</value>
-    </binding>
-    <binding>
-     <command>property-assign</command>
-     <property>controls/flight/chute_jettisoned</property>
-     <value type="int">1</value>
-    </binding>
-   </key>
-
-   <key n="109">
-     <name>m</name>
-     <desc>Nose wheel steering engage</desc>
-     <binding>
-      <command>property-assign</command>
-      <property>fdm/jsbsim/systems/NWS/engaged</property>
-      <value>1</value>
-     </binding>
-     <mod-up>
-      <binding>
-      <command>property-assign</command>
-      <property>fdm/jsbsim/systems/NWS/engaged</property>
-      <value>0</value>
-     </binding>
-    </mod-up>
   </key>
 
 </PropertyList>
