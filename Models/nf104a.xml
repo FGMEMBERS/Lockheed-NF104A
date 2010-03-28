@@ -53,7 +53,7 @@
   <animation>
     <type>shader</type>
     <shader>chrome</shader>
-    <texture>glass_shader.png</texture>
+    <texture>Aircraft/Generic/Effects/CubeCrosses/blue_sky_tx.png</texture>
     <object-name>vitres</object-name>
     <object-name>canopytrans</object-name>
     <object-name>lampeATR</object-name>
@@ -130,6 +130,30 @@
     </shininess>
 -->
   </animation>
+  
+  <effect>
+    <inherits-from>Effects/reflect</inherits-from>
+    <object-name>fuselage</object-name>
+    <object-name>porteG</object-name>
+    <object-name>porteD</object-name>
+    <object-name>porteAG</object-name>
+    <object-name>porteAD</object-name>
+    <object-name>canopy</object-name>
+    <object-name>ailes</object-name>
+    <object-name>aileronG</object-name>
+    <object-name>aileronD</object-name>
+    <object-name>voletG</object-name>
+    <object-name>voletD</object-name>
+    <object-name>derive</object-name>
+    <object-name>entreeair</object-name>
+    <object-name>aerofreinG</object-name>
+    <object-name>aerofreinD</object-name>
+    <object-name>lampeA</object-name>
+    <object-name>sortie</object-name>
+    <object-name>fusee</object-name>
+    <object-name>profondeur</object-name>
+    <object-name>direction</object-name>
+  </effect>
 
   <!-- Interieur -->
   <model>
