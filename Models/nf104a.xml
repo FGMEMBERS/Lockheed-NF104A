@@ -30,6 +30,11 @@
     <object-name>entreeair</object-name>
     <object-name>aerofreinG</object-name>
     <object-name>aerofreinD</object-name>
+    <object-name>axeAH</object-name>
+    <object-name>axeAB</object-name>
+    <object-name>articuleH</object-name>
+    <object-name>articuleB</object-name>
+    <object-name>lampeA</object-name>
     <object-name>roueA</object-name>
     <object-name>roueG</object-name>
     <object-name>roueD</object-name>
@@ -42,6 +47,7 @@
     <!-- Objets transparents -->
     <object-name>vitres</object-name>
     <object-name>canopytrans</object-name>
+    <object-name>lampeATR</object-name>
   </animation>
 
   <animation>
@@ -50,12 +56,14 @@
     <texture>glass_shader.png</texture>
     <object-name>vitres</object-name>
     <object-name>canopytrans</object-name>
+    <object-name>lampeATR</object-name>
   </animation>
 
   <animation>
     <type>noshadow</type>
     <object-name>vitres</object-name>
     <object-name>canopytrans</object-name>
+    <object-name>lampeATR</object-name>
   </animation>
 
   <animation>
@@ -75,6 +83,11 @@
     <object-name>entreeair</object-name>
     <object-name>aerofreinG</object-name>
     <object-name>aerofreinD</object-name>
+    <object-name>axeAH</object-name>
+    <object-name>axeAB</object-name>
+    <object-name>articuleH</object-name>
+    <object-name>articuleB</object-name>
+    <object-name>lampeA</object-name>
     <object-name>roueA</object-name>
     <object-name>roueG</object-name>
     <object-name>roueD</object-name>
@@ -127,6 +140,23 @@
       <z-m> 0 </z-m>
     </offsets>
   </model>
+
+  <!-- Une ombre pour OSG -->
+  <model>
+    <name>shadowOSG</name>
+    <path>Aircraft/Lockheed-NF104A/Models/shadow.xml</path>
+  </model>
+
+  <animation>
+    <type>select</type>
+    <object-name>shadowOSG</object-name>
+    <condition>
+      <equals>
+        <property>sim[0]/rendering/shadows-ac</property>
+        <value>true</value>
+      </equals>
+    </condition>
+  </animation>
 
   <!-- Ailerons -->
   <animation>
@@ -280,11 +310,38 @@
     </axis>
   </animation>
  
+  <!-- Compression -->
+  <animation>
+    <name>ToutA</name>
+    <object-name>roueA</object-name>
+    <object-name>axeAB</object-name>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>ToutA</object-name>
+    <property>gear/gear[0]/compression-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep> 0.0 </dep></entry>
+      <entry><ind> 1 </ind><dep> 0.3 </dep></entry>
+    </interpolation>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
   <!-- Rentrée des roues -->
   <animation>
     <name>TrainAvant</name>
-    <object-name>axeA</object-name>
+    <object-name>axeAH</object-name>
+    <object-name>axeAB</object-name>
+    <object-name>articuleH</object-name>
+    <object-name>articuleB</object-name>
     <object-name>roueA</object-name>
+    <object-name>lampeA</object-name>
+    <object-name>lampeATR</object-name>
   </animation>
 
   <animation>
@@ -478,6 +535,86 @@
     </axis>
   </animation>
 
+  <!-- Rotation de la roue avant en fonction de la gouverne de direction -->
+  <animation>
+    <name>RoueAvant</name>
+    <object-name>axeAB</object-name>
+    <object-name>articuleH</object-name>
+    <object-name>articuleB</object-name>
+    <object-name>roueA</object-name>
+    <object-name>lampeA</object-name>
+    <object-name>lampeATR</object-name>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>RoueAvant</object-name>
+    <property>/surface-positions/rudder-pos-norm</property>
+    <factor> 25 </factor>
+    <center>
+      <x-m> -2.741 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -1.245 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <!-- Rotation des roues lors du roulage -->
+  <animation>
+    <type>spin</type>
+    <object-name>roueA</object-name>
+    <property>/gear/gear[0]/rollspeed-ms</property>
+    <factor> 30 </factor>
+    <center>
+      <x-m> -2.741 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -1.921 </z-m>
+    </center>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>spin</type>
+    <object-name>roueG</object-name>
+    <property>/gear/gear[1]/rollspeed-ms</property>
+    <factor> 30 </factor>
+    <center>
+      <x-m>  1.753 </x-m>
+      <y-m> -1.363 </y-m>
+      <z-m> -1.887 </z-m>
+    </center>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>spin</type>
+    <object-name>roueD</object-name>
+    <property>/gear/gear[1]/rollspeed-ms</property>
+    <factor> 30 </factor>
+    <center>
+      <x-m>  1.753 </x-m>
+      <y-m>  1.363 </y-m>
+      <z-m> -1.887 </z-m>
+    </center>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
   <!-- Canopy -->
   <animation>
     <name>CanopyTotale</name>
@@ -497,6 +634,102 @@
       <x2-m> -3.285 </x2-m>
       <y2-m> -0.386 </y2-m>
       <z2-m> -0.390 </z2-m>
+    </axis>
+  </animation>
+
+  <!-- Ajout des effets lumineux
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/light/beacon.xml</path>
+    <offsets>
+      <x-m> 0.708 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.527 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/light/RedLight.xml</path>
+    <offsets>
+      <x-m> -1.297 </x-m>
+      <y-m> -4.353 </y-m>
+      <z-m>  0.005 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/light/GreenLight.xml</path>
+    <offsets>
+      <x-m> -1.297 </x-m>
+      <y-m>  4.353 </y-m>
+      <z-m>  0.005 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/light/StrobeWhite.xml</path>
+    <offsets>
+      <x-m> -1.297 </x-m>
+      <y-m> -4.253 </y-m>
+      <z-m>  0.005 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/light/StrobeWhite.xml</path>
+    <offsets>
+      <x-m> -1.297 </x-m>
+      <y-m>  4.253 </y-m>
+      <z-m>  0.005 </z-m>
+   </offsets>
+  </model>
+
+  <model>
+    <name>NozeGear</name>
+    <path>Aircraft/Lockheed-NF104A/Models/light/WhiteLight.xml</path>
+    <offsets>
+      <x-m> -2.574 </x-m>
+      <y-m>  0.074 </y-m>
+      <z-m> -0.643 </z-m>
+    </offsets>
+  </model> -->
+
+  <!-- Gear light cone -->
+  <model>
+    <name>Taxi-Light</name>
+    <path>Aircraft/Lockheed-NF104A/Models/light/light-cone.xml</path>
+    <offsets>
+      <x-m> -2.805 </x-m>
+      <y-m> -0.117 </y-m>
+      <z-m> -1.499 </z-m>
+      <pitch-deg> -5 </pitch-deg>
+    </offsets>
+  </model>
+
+  <animation>
+    <type>select</type>
+    <object-name>Taxi-Light</object-name>
+    <condition>
+      <equals>
+        <property>gear/gear[0]/position-norm</property>
+        <value> 1 </value>
+      </equals>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Taxi-Light</object-name>
+    <property>/surface-positions/rudder-pos-norm</property>
+    <factor> 25 </factor>
+    <center>
+      <x-m> -2.741 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -1.245 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
     </axis>
   </animation>
 

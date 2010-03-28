@@ -27,5 +27,31 @@
     </offsets>
   </model>
 
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -0.488 </x-m>
+      <y-m>  0.105 </y-m>
+      <z-m>  0.301 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -0.488 </x-m>
+      <y-m>  0.105 </y-m>
+      <z-m>  0.216 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
 </PropertyList>
 
