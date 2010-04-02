@@ -50,14 +50,12 @@
     <object-name>lampeATR</object-name>
   </animation>
 
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/CubeCrosses/blue_sky_tx.png</texture>
+	<effect>
+		<inherits-from>Aircraft/Lockheed-NF104A/Models/Effects/F104reflect</inherits-from>
     <object-name>vitres</object-name>
     <object-name>canopytrans</object-name>
     <object-name>lampeATR</object-name>
-  </animation>
+  </effect>
 
   <animation>
     <type>noshadow</type>
@@ -129,10 +127,10 @@
       <shininess-prop>shininess</shininess-prop>
     </shininess>
 -->
-  </animation>
+  </animation> 
   
   <effect>
-    <inherits-from>Effects/reflect</inherits-from>
+    <inherits-from>Aircraft/Lockheed-NF104A/Models/Effects/F104reflect</inherits-from>
     <object-name>fuselage</object-name>
     <object-name>porteG</object-name>
     <object-name>porteD</object-name>
@@ -356,7 +354,7 @@
     </axis>
   </animation>
 
-  <!-- Rentrée des roues -->
+  <!-- Rentre des roues -->
   <animation>
     <name>TrainAvant</name>
     <object-name>axeAH</object-name>
