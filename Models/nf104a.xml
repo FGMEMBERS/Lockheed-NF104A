@@ -27,6 +27,8 @@
     <object-name>voletG</object-name>
     <object-name>voletD</object-name>
     <object-name>derive</object-name>
+    <object-name>profondeurG</object-name>
+    <object-name>profondeurD</object-name>
     <object-name>entreeair</object-name>
     <object-name>aerofreinG</object-name>
     <object-name>aerofreinD</object-name>
@@ -36,8 +38,23 @@
     <object-name>articuleB</object-name>
     <object-name>lampeA</object-name>
     <object-name>roueA</object-name>
+     
+    <object-name>axeG</object-name>
+    <object-name>axeGH</object-name>
+    <object-name>axeGbar</object-name>
+    <object-name>axeGpiston</object-name>
     <object-name>roueG</object-name>
+    <object-name>lampeG</object-name>
+    <object-name>roueG</object-name>
+
+    <object-name>axeD</object-name>
+    <object-name>axeDH</object-name>
+    <object-name>axeDbar</object-name>
+    <object-name>axeDpiston</object-name>
     <object-name>roueD</object-name>
+    <object-name>lampeD</object-name>
+    <object-name>roueD</object-name>
+
     <object-name>sortie</object-name>
     <object-name>fusee</object-name>
     <object-name>profondeur</object-name>
@@ -48,13 +65,39 @@
     <object-name>vitres</object-name>
     <object-name>canopytrans</object-name>
     <object-name>lampeATR</object-name>
+    <object-name>lampeTRG</object-name>
+    <object-name>lampeTRD</object-name>
   </animation>
 
-	<effect>
-		<inherits-from>Aircraft/Lockheed-NF104A/Models/Effects/F104reflect</inherits-from>
+  <effect>
+    <inherits-from>Aircraft/Lockheed-NF104A/Models/Effects/F104reflect</inherits-from>
     <object-name>vitres</object-name>
     <object-name>canopytrans</object-name>
     <object-name>lampeATR</object-name>
+    <object-name>lampeTRG</object-name>
+    <object-name>lampeTRD</object-name>
+  </effect>
+
+  <effect>
+    <inherits-from>Aircraft/Lockheed-NF104A/Models/Effects/F104reflect</inherits-from>
+    <object-name>fuselage</object-name>
+    <object-name>porteG</object-name>
+    <object-name>porteD</object-name>
+    <object-name>porteAG</object-name>
+    <object-name>porteAD</object-name>
+    <object-name>canopy</object-name>
+    <object-name>ailes</object-name>
+    <object-name>aileronG</object-name>
+    <object-name>aileronD</object-name>
+    <object-name>voletG</object-name>
+    <object-name>voletD</object-name>
+    <object-name>derive</object-name>
+    <object-name>profondeurG</object-name>
+    <object-name>profondeurD</object-name>
+    <object-name>entreeair</object-name>
+    <object-name>aerofreinG</object-name>
+    <object-name>aerofreinD</object-name>
+    <object-name>direction</object-name>
   </effect>
 
   <animation>
@@ -62,6 +105,8 @@
     <object-name>vitres</object-name>
     <object-name>canopytrans</object-name>
     <object-name>lampeATR</object-name>
+    <object-name>lampeTRG</object-name>
+    <object-name>lampeTRD</object-name>
   </animation>
 
   <animation>
@@ -78,6 +123,8 @@
     <object-name>voletG</object-name>
     <object-name>voletD</object-name>
     <object-name>derive</object-name>
+    <object-name>profondeurG</object-name>
+    <object-name>profondeurD</object-name>
     <object-name>entreeair</object-name>
     <object-name>aerofreinG</object-name>
     <object-name>aerofreinD</object-name>
@@ -87,8 +134,23 @@
     <object-name>articuleB</object-name>
     <object-name>lampeA</object-name>
     <object-name>roueA</object-name>
+     
+    <object-name>axeG</object-name>
+    <object-name>axeGH</object-name>
+    <object-name>axeGbar</object-name>
+    <object-name>axeGpiston</object-name>
     <object-name>roueG</object-name>
+    <object-name>lampeG</object-name>
+    <object-name>roueG</object-name>
+
+    <object-name>axeD</object-name>
+    <object-name>axeDH</object-name>
+    <object-name>axeDbar</object-name>
+    <object-name>axeDpiston</object-name>
     <object-name>roueD</object-name>
+    <object-name>lampeD</object-name>
+    <object-name>roueD</object-name>
+
     <object-name>sortie</object-name>
     <object-name>fusee</object-name>
     <object-name>profondeur</object-name>
@@ -127,31 +189,7 @@
       <shininess-prop>shininess</shininess-prop>
     </shininess>
 -->
-  </animation> 
-  
-  <effect>
-    <inherits-from>Aircraft/Lockheed-NF104A/Models/Effects/F104reflect</inherits-from>
-    <object-name>fuselage</object-name>
-    <object-name>porteG</object-name>
-    <object-name>porteD</object-name>
-    <object-name>porteAG</object-name>
-    <object-name>porteAD</object-name>
-    <object-name>canopy</object-name>
-    <object-name>ailes</object-name>
-    <object-name>aileronG</object-name>
-    <object-name>aileronD</object-name>
-    <object-name>voletG</object-name>
-    <object-name>voletD</object-name>
-    <object-name>derive</object-name>
-    <object-name>entreeair</object-name>
-    <object-name>aerofreinG</object-name>
-    <object-name>aerofreinD</object-name>
-    <object-name>lampeA</object-name>
-    <object-name>sortie</object-name>
-    <object-name>fusee</object-name>
-    <object-name>profondeur</object-name>
-    <object-name>direction</object-name>
-  </effect>
+  </animation>
 
   <!-- Interieur -->
   <model>
@@ -179,6 +217,28 @@
       </equals>
     </condition>
   </animation>
+
+  <!-- Flamme -->
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/Effects/flammes/flammesG.xml</path>
+    <offsets>
+      <x-m>  5.888 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.490 </z-m>
+      <roll-deg>     0 </roll-deg>
+      <pitch-deg>   -4 </pitch-deg>
+      <heading-deg>  0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/Effects/trail/trail.xml</path>
+    <offsets>
+      <x-m>  5.888 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.490 </z-m>
+    </offsets>
+  </model>
 
   <!-- Ailerons -->
   <animation>
@@ -296,7 +356,7 @@
       <z2-m> 0.405 </z2-m>
     </axis>
   </animation>
-  
+
   <!-- Aerofreins -->
   <animation>
     <type>rotate</type>
@@ -354,6 +414,64 @@
     </axis>
   </animation>
 
+  <animation>
+    <name>RoueGauche</name>
+    <object-name>axeG</object-name>
+    <object-name>axeGpiston</object-name>
+    <object-name>axeGbar</object-name>
+    <object-name>roueG</object-name>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>RoueGauche</object-name>
+    <property>/gear/gear[1]/compression-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep>   5 </dep></entry>
+      <entry><ind> 0.1 </ind><dep>   0 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> -10 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m>  1.753 </x-m>
+      <y-m> -0.320 </y-m>
+      <z-m> -1.235 </z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <name>RoueDroite</name>
+    <object-name>axeD</object-name>
+    <object-name>axeDpiston</object-name>
+    <object-name>axeDbar</object-name>
+    <object-name>roueD</object-name>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>RoueDroite</object-name>
+    <property>/gear/gear[2]/compression-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep>   5 </dep></entry>
+      <entry><ind> 0.1 </ind><dep>   0 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> -10 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m>  1.753 </x-m>
+      <y-m>  0.320 </y-m>
+      <z-m> -1.235 </z-m>
+    </center>
+    <axis>
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
   <!-- Rentre des roues -->
   <animation>
     <name>TrainAvant</name>
@@ -389,7 +507,12 @@
   <animation>
     <name>TrainGauche</name>
     <object-name>axeG</object-name>
+    <object-name>axeGH</object-name>
+    <object-name>axeGbar</object-name>
+    <object-name>axeGpiston</object-name>
     <object-name>roueG</object-name>
+    <object-name>lampeG</object-name>
+    <object-name>lampeTRG</object-name>
   </animation>
 
   <animation>
@@ -436,7 +559,12 @@
   <animation>
     <name>TrainDroit</name>
     <object-name>axeD</object-name>
+    <object-name>axeDH</object-name>
+    <object-name>axeDbar</object-name>
+    <object-name>axeDpiston</object-name>
     <object-name>roueD</object-name>
+    <object-name>lampeD</object-name>
+    <object-name>lampeTRD</object-name>
   </animation>
 
   <animation>

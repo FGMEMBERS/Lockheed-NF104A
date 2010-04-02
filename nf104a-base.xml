@@ -88,6 +88,12 @@
     <keyboard include="Nasal/nf104a-keyboard.xml"/>
   </input>
  
+  <controls>
+    <gear>
+      <brake-parking type="double">1</brake-parking>
+    </gear>
+  </controls>
+
   <nasal>
     <nf104a>
       <file>Aircraft/Lockheed-NF104A/Nasal/doors.nas</file>
