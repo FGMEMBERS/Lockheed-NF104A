@@ -151,28 +151,8 @@
 -->
   </animation>
 
-  <animation>
-    <type>noshadow</type>
-    <object-name>vitres</object-name>
-    <object-name>canopytrans</object-name>
-    <object-name>lampeATR</object-name>
-    <object-name>lampeTRG</object-name>
-    <object-name>lampeTRD</object-name>
-  </animation>
-
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
-    <object-name>vitres</object-name>
-    <object-name>canopytrans</object-name>
-    <object-name>lampeATR</object-name>
-    <object-name>lampeTRG</object-name>
-    <object-name>lampeTRD</object-name>
-  </animation>
-
   <effect>
-    <inherits-from>Aircraft/Lockheed-NF104A/Models/Effects/F104reflect</inherits-from>
+    <inherits-from>Aircraft/Generic/Effects/Fuselagereflect</inherits-from>
     <object-name>fuselage</object-name>
     <object-name>porteG</object-name>
     <object-name>porteD</object-name>
@@ -193,6 +173,26 @@
     <object-name>direction</object-name>
     <object-name>fusee</object-name>
   </effect>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>vitres</object-name>
+    <object-name>canopytrans</object-name>
+    <object-name>lampeATR</object-name>
+    <object-name>lampeTRG</object-name>
+    <object-name>lampeTRD</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>vitres</object-name>
+    <object-name>canopytrans</object-name>
+    <object-name>lampeATR</object-name>
+    <object-name>lampeTRG</object-name>
+    <object-name>lampeTRD</object-name>
+  </animation>
 
   <!-- Interieur -->
   <model>
