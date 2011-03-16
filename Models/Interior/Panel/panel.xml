@@ -14,6 +14,26 @@
     <!-- Objets transparents -->
   </animation>
 
+  <!-- FUSEE -->
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/Interior/Panel/Instruments/divers/fusee.xml</path>
+    <offsets>
+      <x-m> -0.489 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.210 </z-m>
+    </offsets>
+  </model>
+
+  <!-- NAV LIGHT -->
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/Interior/Panel/Instruments/divers/landing-lights.xml</path>
+    <offsets>
+      <x-m> -0.489 </x-m>
+      <y-m> -0.162 </y-m>
+      <z-m>  0.338 </z-m>
+    </offsets>
+  </model>
+
   <!-- AI -->
   <model>
     <path>Aircraft/Lockheed-NF104A/Models/Interior/Panel/Instruments/ai/ai.xml</path>
@@ -21,9 +41,6 @@
       <x-m> -0.489 </x-m>
       <y-m>  0.000 </y-m>
       <z-m>  0.291 </z-m>
-      <roll-deg>    0 </roll-deg>
-      <pitch-deg>   0 </pitch-deg>
-      <heading-deg> 0 </heading-deg>
     </offsets>
   </model>
 
@@ -34,9 +51,6 @@
       <x-m> -0.488 </x-m>
       <y-m>  0.105 </y-m>
       <z-m>  0.301 </z-m>
-      <roll-deg>    0 </roll-deg>
-      <pitch-deg>   0 </pitch-deg>
-      <heading-deg> 0 </heading-deg>
     </offsets>
   </model>
 
@@ -47,9 +61,36 @@
       <x-m> -0.488 </x-m>
       <y-m>  0.105 </y-m>
       <z-m>  0.216 </z-m>
-      <roll-deg>    0 </roll-deg>
-      <pitch-deg>   0 </pitch-deg>
-      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- FLOW -->
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/Interior/Panel/Instruments/fuel/flow.xml</path>
+    <offsets>
+      <x-m> -0.488 </x-m>
+      <y-m>  0.176 </y-m>
+      <z-m>  0.250 </z-m>
+    </offsets>
+  </model>
+
+  <!-- FUEL1 -->
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/Interior/Panel/Instruments/fuel/fuel1.xml</path>
+    <offsets>
+      <x-m> -0.488 </x-m>
+      <y-m>  0.233 </y-m>
+      <z-m>  0.250 </z-m>
+    </offsets>
+  </model>
+
+  <!-- FUEL2 -->
+  <model>
+    <path>Aircraft/Lockheed-NF104A/Models/Interior/Panel/Instruments/fuel/fuel2.xml</path>
+    <offsets>
+      <x-m> -0.488 </x-m>
+      <y-m>  0.176 </y-m>
+      <z-m>  0.196 </z-m>
     </offsets>
   </model>
 

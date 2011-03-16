@@ -38,13 +38,25 @@
 
     <multiplay>
       <chat_display>1</chat_display>
+      <generic> 
+        <int type="int">  0 </int>  <!-- 0 immat -->
+        <int type="int">  0 </int>  <!-- 1 immat -->
+        <int type="int">  0 </int>  <!-- 2 immat -->
+        <int type="int">  0 </int>  <!-- 3 immat -->
+        <int type="int">  0 </int>  <!-- 4 immat -->
+        <int type="int">  0 </int>  <!-- 5 immat -->
+        <int type="bool"> 0 </int>  <!-- 6 smoke -->
+        <int type="int">  0 </int>  <!-- 7 color -->
+        <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
+        <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
+      </generic>
     </multiplay>
 
     <!-- Flap settings -->
     <flaps>
-        <setting>0</setting>
-        <setting>0.3</setting>
-        <setting>1</setting>
+        <setting> 0.0 </setting>
+        <setting> 0.3 </setting>
+        <setting> 1.0 </setting>
     </flaps>
 
     <weight n="0">
@@ -92,14 +104,21 @@
     <gear>
       <brake-parking type="double">1</brake-parking>
     </gear>
+    <switches>
+      <landing-light>0</landing-light>
+      <fusee>0</fusee>
+    </switches>
   </controls>
 
   <nasal>
-    <nf104a>
+    <doors>
       <file>Aircraft/Lockheed-NF104A/Nasal/doors.nas</file>
+    </doors>
+    <nf104a>
       <file>Aircraft/Lockheed-NF104A/Nasal/light.nas</file>
       <file>Aircraft/Lockheed-NF104A/Nasal/liveries.nas</file>
     </nf104a>
   </nasal>
    
 </PropertyList>
+
