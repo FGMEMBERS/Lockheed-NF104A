@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>fusee.ac</path>
+
+  <animation>
+    <!-- Objets transparents -->
+    <object-name>fusee</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>fusee</object-name>
+  </animation>
+
+  <!-- Rotation de la flamme de la fusée -->
+  <animation>
+    <type>spin</type>
+    <object-name>fusee</object-name>
+    <property>controls/engines/engine[1]/throttle</property>
+    <factor> 100 </factor>
+    <center>
+      <x-m> 0 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> 0 </z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>fusee</object-name>
+    <condition>
+      <equals>
+        <property>surface-positions/rocketdyne</property>
+        <value>1</value>
+      </equals>
+    </condition>
+  </animation>
+
+</PropertyList>
+
