@@ -6,6 +6,20 @@
   <sim>
     <description>Lockheed NF 104 A</description>
     <author>Emmanuel BARANGER (3D/FDM)</author>
+        <tags>
+          <tag>trainer</tag>
+          <tag>lockheed</tag>
+          <tag>1960s</tag>
+          <tag>1970s</tag>
+          <tag>experimental</tag>
+          <tag>retractable-gear</tag>
+          <tag>supersonic</tag>
+          <tag>t-tail</tag>
+          <tag>jet</tag>
+          <tag>afterburner</tag>
+          <tag>rocket</tag>
+          <tag>single-engine</tag>
+        </tags>
   </sim>
 
 </PropertyList>
